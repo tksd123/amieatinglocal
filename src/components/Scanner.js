@@ -101,7 +101,7 @@ const Scanner = ({
             else if (res.product.origins == "Australia") {
                 alert("Not Bad Buddy");
             }
-            else if (res.product.origins == "") {
+            else if (!res.product.origins || sres.product.origins == "") {
                 alert("I don't know yet sorry :-(")
             }
             else {
